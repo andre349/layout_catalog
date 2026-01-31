@@ -4,7 +4,7 @@
   &__star {
     width: $stars-width-height;
     height: $stars-width-height;
-    margin-right: 4px;
+    margin-right: $margin-right_star;
 
     background-image: url(../images/star.svg);
     background-repeat: no-repeat;

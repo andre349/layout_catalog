@@ -9,7 +9,7 @@
 
   &__image {
     display: block;
-    margin: 0 auto 40px;
+    margin: 0 auto $logo-width-height;
     width: 160px;
     height: 134px;
   }
@@ -75,6 +75,8 @@
     text-transform: uppercase;
 
     background-color: $main-color;
+
+    transition: color 0.3s ease, background-color 0.3s ease;
 
     &:hover {
       color: $main-color;

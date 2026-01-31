@@ -7,7 +7,7 @@
   }
 
   &__item {
-    margin-left: 20px;
+    margin-left: $margin-left;
 
     &:first-child {
       margin-left: 0;
@@ -20,11 +20,11 @@
     display: flex;
     align-items: center;
 
-    height: 60px;
+    height: $height;
 
     /* stylelint-disable-next-line font-family-name-quotes */
     font-family: 'Roboto', sans-serif;
-    font-size: 12px;
+    font-size: $font-size;
     font-weight: 500;
     white-space: nowrap;
     text-decoration: none;
@@ -47,8 +47,8 @@
         left: 0;
         right: 0;
 
-        height: 4px;
-        border-radius: 2px;
+        height: $height-after;
+        border-radius: $border-radius-after;
         background-color: $main-color;
       }
     }
