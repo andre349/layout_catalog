@@ -1,0 +1,18 @@
+html {
+  font-family: Roboto, sans-serif;
+  font-size: 10px;
+  line-height: 14px;
+  color: $text-secondary-color;
+}
+
+body {
+  margin: 0;
+}
+
+.main {
+  padding: 50px 40px 72px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, $width-card);
+  gap: 48px 46px;
+  justify-content: center;
+}
