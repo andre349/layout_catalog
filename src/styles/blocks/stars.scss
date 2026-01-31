@@ -2,8 +2,8 @@
   display: flex;
 
   &__star {
-    width: 16px;
-    height: 16px;
+    width: $stars-width-height;
+    height: $stars-width-height;
     margin-right: 4px;
 
     background-image: url(../images/star.svg);

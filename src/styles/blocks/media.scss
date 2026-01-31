@@ -1,23 +1,23 @@
 @media (min-width: 300px) {
   .main {
-    $column-count: 1;
+    grid-template-columns: repeat(1, $width-card);
   }
 }
 
 @media (min-width: 488px) {
   .main {
-    $column-count: 2;
+    grid-template-columns: repeat(2, $width-card);
   }
 }
 
 @media (min-width: 768px) {
   .main {
-    $column-count: 3;
+    grid-template-columns: repeat(3, $width-card);
   }
 }
 
 @media (min-width: 1024px) {
   .main {
-    $column-count: 4;
+    grid-template-columns: repeat(4, $width-card);
   }
 }

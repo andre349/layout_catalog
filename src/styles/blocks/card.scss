@@ -5,6 +5,7 @@
   border-radius: 5px;
   padding: 32px 16px 16px;
   background: $background-color;
+  transition: transform 0.3s ease;
 
   &__image {
     display: block;
@@ -19,10 +20,7 @@
     line-height: 18px;
     font-weight: 500;
     color: $text-accent-color;
-
-    &:hover {
-      color: $color-cards-hover;
-    }
+    transition: color 0.3s ease;
   }
 
   &__code {
@@ -82,5 +80,13 @@
       color: $main-color;
       background-color: $background-color;
     }
+  }
+
+  &:hover .card__title {
+    color: $color-cards-hover;
+  }
+
+  &:hover {
+    transform: scale(1.2);
   }
 }
